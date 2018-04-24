@@ -113,7 +113,7 @@ $goodsSamsung = new Goods('Samsung S8', 'Телефон', 24000);
         ul {font-size: 1.5rem; font-weight: bold;}
         li {font-weight: normal;}
     </style>
-    <title>Document</title>
+    <title>ООП-ДЗ_3.1</title>
 </head>
 <body>
 <div>
@@ -124,6 +124,8 @@ $goodsSamsung = new Goods('Samsung S8', 'Телефон', 24000);
         <li> <?php $duckPekin->getDuck();?></li>
         <li> <?php $goodsApple->getGoods();?></li>
     </ul>
+
+    <a href="news.php">Перейти к доп заданию (новости)</a>
 </div>
 </body>
 </html>
